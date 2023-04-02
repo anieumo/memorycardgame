@@ -1,0 +1,38 @@
+
+.card {
+  position: relative;
+  border-radius: 2px;
+  border-color: white;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+
+/*front of card */
+.card .front {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  transform: rotateY(90deg);
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 232, 169);
+}
+
+.flipped .front {
+  transform: rotateY(0deg);
+}
+  
+.card .back {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 232, 169);
+}
+
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
