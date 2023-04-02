@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memorycardgame/static/css/main.560599e2.css",
+    "main.js": "/memorycardgame/static/js/main.eb0da069.js",
+    "static/media/4.jpg": "/memorycardgame/static/media/4.673c05ea3d04341805ab.jpg",
+    "static/media/back.jpg": "/memorycardgame/static/media/back.cb9005e16067689a7633.jpg",
+    "index.html": "/memorycardgame/index.html",
+    "main.560599e2.css.map": "/memorycardgame/static/css/main.560599e2.css.map",
+    "main.eb0da069.js.map": "/memorycardgame/static/js/main.eb0da069.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.560599e2.css",
+    "static/js/main.eb0da069.js"
+  ]
+}
